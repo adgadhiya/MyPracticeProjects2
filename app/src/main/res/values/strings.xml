@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">TravisTutorial</string>
+    <string name="title_activity_contex_menu">ContexMenuAct</string>
+    <string name="title_activity_contex2_menu">Contex2Menu</string>
+    <string name="quit">Quit</string>
+    <string name="stop">Stop</string>
+    <string name="dumb">Dumb</string>
+    <string name="disabled">Disabled</string>
+
+    <string name="group_items">Group Items</string>
+    <string name="group_item1">G_item1</string>
+    <string name="group_item2">G_item2</string>
+    <string name="submenu">Sub_menu</string>
+    <string name="do_something">Do Something</string>
+    <string name="do_nothing">Do Nothng</string>
+    <string name="enter_url">Enter URL</string>
+    <string name="reload">ReLoad</string>
+    <string name="back">Back</string>
+    <string name="forward">Forward</string>
+    <string name="load">Load</string>
+    <string name="frwrd">frwrd</string>
+
+    <string-array name="header">
+        <item>India</item>
+        <item>Pakistan</item>
+        <item>USA</item>
+        <item>UK</item>
+        <item>Srilanka</item>
+        <item>Africa</item>
+        <item>HongKong</item>
+    </string-array>
+
+    <string-array name="detail">
+        <item>Delhi</item>
+        <item>Karachi</item>
+        <item>Wadhington</item>
+        <item>London</item>
+        <item>Colombo</item>
+        <item>Ghana</item>
+        <item>Hongkong</item>
+    </string-array>
+
+    <string-array name="movie">
+        <item>Fury</item>
+        <item>Conjuring</item>
+        <item>Harry Portet</item>
+        <item>Twilight</item>
+        <item>Zindgi</item>
+        <item>X-Man</item>
+        <item>SpiderMan</item>
+        <item>Sniper</item>
+        <item>God of War</item>
+        <item>any Random</item>
+    </string-array>
+
+    <string-array name="movies">
+        <item>Fury</item>
+        <item>Conjuring</item>
+        <item>Harry Portet</item>
+        <item>Twilight</item>
+        <item>Zindgi</item>
+        <item>X-Man</item>
+        <item>SpiderMan</item>
+        <item>Sniper</item>
+        <item>The Last Three Days</item>
+        <item>Batman</item>
+        <item>UPside Down</item>
+        <item>HangOver</item>
+        <item>Speed</item>
+        <item>Delhi</item>
+        <item>Karachi</item>
+        <item>Wadhington</item>
+        <item>London</item>
+        <item>Colombo</item>
+        <item>Ghana</item>
+        <item>Hongkong</item>
+        <item>56 shades of Gray</item>
+        <item>Now You See Me</item>
+        <item>Run All Night</item>
+        <item>Die Hard</item>
+        <item>Need for Speed</item>
+    </string-array>
+
+    <string-array name="rating">
+        <item>8.0/10</item>
+        <item>5.0/10</item>
+        <item>8.5/10</item>
+        <item>6.4/10</item>
+        <item>7.8/10</item>
+        <item>8.7/10</item>
+        <item>8.9/10</item>
+        <item>6.2/10</item>
+        <item>9.3/10</item>
+        <item>5.6/10</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

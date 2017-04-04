@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unknown.travistutorial">
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/myimage"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AllClasses">
+            <intent-filter>
+                <action android:name="com.example.unknown.travistutorial.AllClasses" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AddSub">
+            <intent-filter>
+                <action android:name="com.example.unknown.travistutorial.AddSub" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Random" />
+        <activity android:name=".MultiRows" />
+        <activity android:name=".CollapseRow" />
+        <activity android:name=".Expandable" />
+        <activity android:name=".TabWidgetHost" />
+        <activity android:name=".EmailActi" />
+        <activity
+            android:name=".CameraActi"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Acti2Acti" />
+        <activity android:name=".NewActi" />
+        <activity android:name=".MyGal" />
+        <activity android:name=".ImgSvch" />
+        <activity android:name=".MyFlip" />
+        <activity
+            android:name=".ContexMenuAct"
+            android:label="@string/title_activity_contex_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Contex2Menu"
+            android:label="@string/title_activity_contex2_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ThemeActi"
+            android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+            <action android:name="com.example.unknown.travistutorial.ThemeActi" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </activity>
+        <activity android:name=".PrefAct" />
+        <activity android:name=".GFX" />
+        <activity android:name=".GFXSurface" />
+        <activity android:name=".Lati_Longi" />
+        <activity android:name=".Rotation" />
+        <activity android:name=".ConfigRotation" />
+        <activity
+            android:name=".ConfigChange"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity android:name=".SharedPrefs" />
+        <activity android:name=".FileActivity" />
+        <activity android:name=".TaskAsync" />
+        <activity android:name=".ExternalStore" />
+        <activity android:name=".SqliteActi" />
+        <activity android:name=".HttpActi" />
+        <activity android:name=".AllOtherActivities" />
+        <activity android:name=".sliding" />
+        <activity android:name=".CollapseListHandler" />
+        <activity android:name=".BinderMainClass" />
+
+        <service android:name=".BinderClass" />
+        <service android:name=".MessangerClass" />
+        <service
+            android:name=".IpcClass"
+            android:process=":remote" />
+
+        <activity android:name=".MessengerMainClass" />
+        <activity android:name=".IpcMainClass" />
+        <activity android:name=".SwipeViewCLass" />
+        <activity android:name=".ImageSliderlass" />
+        <activity android:name=".NavigationDrawerClass" />
+        <activity android:name=".RecyclerViewClass" />
+        <activity android:name=".NavigationRecyclerView" />
+        <activity android:name=".RecyclerNavigationViewProvider" />
+        <activity android:name=".SwipeRefresh" />
+        <activity android:name=".FastSearchListView" />
+        <activity android:name=".SomeExtraStuff" />
+        <activity android:name=".SQLiteDataBaseClass" />
+        <activity android:name=".SQLiteActivityClass" />
+        <activity android:name=".StickyHeader" />
+        <activity android:name=".TimerTaskExecution" />
+        <activity android:name=".SimpleBlurr"></activity>
+    </application>
+
+</manifest>

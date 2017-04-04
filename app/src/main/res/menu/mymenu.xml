@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/stop"
+        android:title="Stop"
+        android:orderInCategory="3" />
+
+    <item android:id="@+id/no_icon"
+        android:orderInCategory="2"
+        android:title="Sans Icon" />
+
+    <item android:id="@+id/disabled"
+        android:orderInCategory="4"
+        android:title="Disabled"
+        android:enabled="true" />
+
+    <group android:id="@+id/other_stuff"
+        android:menuCategory="secondary"
+        android:orderInCategory="1"
+        android:visible="true">
+        <item android:id="@+id/later"
+            android:title="2nd-To-Last"
+            android:orderInCategory="0"/>
+        <item android:id="@+id/last"
+            android:title="Last"
+            android:orderInCategory="1"/>
+    </group>
+    <item android:id="@+id/submenu"
+        android:orderInCategory="3"
+        android:title="A Submenu">
+        <menu>
+            <item android:id="@+id/non_ghost"
+                android:title="Non-Ghost"
+                android:visible="true"
+                android:alphabeticShortcut="n"/>
+            <item android:id="@+id/ghost"
+                android:title="A Ghost"
+                android:visible="true"
+                android:alphabeticShortcut="g"/>
+        </menu>
+    </item>
+</menu>
